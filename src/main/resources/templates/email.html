@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Your Email Subject</title>
+</head>
+<body>
+<div class="container">
+    <table style="padding: 20px;">
+        <tbody>
+        <td valign="top" style="background-color:#ffffff;vertical-align:top;border-collapse:collapse">
+            <table width="95%" align="center">
+                <tbody>
+                <tr>
+                    <td>
+                        <table cellpadding="0" cellspacing="0" width="100%"
+                               style="background-color: rgb(50, 35, 185); padding: 10px;" bgcolor="blue">
+                            <tbody>
+                            <tr style=" padding: 20px;">
+                                <td align="left" style="width:40%">
+                                    <img src="https://i.ibb.co/47xfTmZ/logo.png" width="35%"
+                                         height="35%" class="CToWUd" border="0"
+                                         data-bit="iit"><!--https://drive.google.com/uc?export=view&amp;id=1FVjeptMNnK54e2_rj47lRly07CiM7fa6 -->
+                                </td>
+                                <td style="font-size:18px ">
+                                    <b style="color: aliceblue;">Prodevans Technologies Pvt. Ltd.</b>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <table>
+                            <tbody>
+                            <tr>
+                                <td>
+                                    <div>
+                                        <div>
+                                            <div>
+                                                <p
+                                                        style="line-height:27px;color:black;font-size:16px;margin-top:40px;margin-bottom:20px">
+                                                                    <span style="color:black;text-decoration:none">
+                                                                        <span th:text="${name}"></span>
+                                                                    </span>,
+                                                </p>
+                                            </div>
+                                            <div>
+                                                <p
+                                                        style="line-height:27px;color:black;font-size:11px;margin-top:40px;margin-bottom:20px">
+                                                </p>
+                                                <p>I hope this email finds you all in good health and
+                                                    high spirits. We are thrilled to extend an
+                                                    invitation to you for our upcoming event, Weekly
+                                                    Demo. This event promises to be a .<br></p>
+                                                <h2>How to Register:</h2>
+                                                <ul>
+                                                    <li>Visit our event registration page<a
+                                                            th:href="@{link}">Here</a></li>
+                                                    <li>Fill out the registration form with your details
+                                                    </li>
+                                                    <li>Confirm your attendance</li>
+                                                </ul>
+                                            </div>
+                                            <!-- <div align="center" style="line-height:2em">
+                                <p style="margin-top:5%;margin-bottom:5%"><a
+                                        style="padding:10px;background-color:rgb(0,86,145);color:white;text-decoration:none;font:inherit"
+                                        href="https://eu-aaa.boschindia-mobilitysolutions.com/auth/realms/Rlm_ROBOIN_BLOS_EU/protocol/openid-connect/auth?response_type=code&amp;scope=openid%20email%20profile%20offline_access&amp;client_id=los-app&amp;redirect_uri=https://www.de.l-os.com/callback&amp;state=0815&amp;nonce=0815&amp;style_id=pm_bsch_los_01"
+                                        rel="nofollow" target="_blank"
+                                        data-saferedirecturl="https://www.google.com/url?q=https://eu-aaa.boschindia-mobilitysolutions.com/auth/realms/Rlm_ROBOIN_BLOS_EU/protocol/openid-connect/auth?response_type%3Dcode%26scope%3Dopenid%2520email%2520profile%2520offline_access%26client_id%3Dlos-app%26redirect_uri%3Dhttps://www.de.l-os.com/callback%26state%3D0815%26nonce%3D0815%26style_id%3Dpm_bsch_los_01&amp;source=gmail&amp;ust=1699529757628000&amp;usg=AOvVaw0Uoff5oAa7IDNwjStb0JdB">Log
+                                        in or register with Bosch L.OS</a></p>
+                            </div> -->
+                                            <div style="line-height:2em">
+                                                <p>If you have any questions or require further
+                                                    information, please don't hesitate to reach out to
+                                                    our event coordinator, <span
+                                                            th:text="${cordinator}"></span>, at
+                                                    <span th:text="${number}"></span> <a
+                                                            th:href="mailto:${email}" target="_blank">at
+                                                        <span th:text="${email}"></span></a> .
+                                                </p>
+                                                <p>
+                                                    We encourage you to spread the word among your
+                                                    colleagues and friends who might also be interested
+                                                    in attending this event. The more, the merrier!
+                                                </p>
+                                                <p>
+                                                    We look forward to your enthusiastic participation
+                                                    and making Weekly Demo a memorable experience for
+                                                    everyone involved.
+                                                </p>
+                                            </div>
+                                            <div>
+                                                <p>Thanks & Regards,<br><em
+                                                        style="color:rgb(0,86,145);font-style:normal;font-size:14px">
+                                                    <span th:text="${from}"></span></em></p>
+                                            </div>
+                                            <div>
+                                                <br><br>
+
+                                                <b>Address</b>
+                                                <br>Prodevans Technologies Pvt. Ltd.
+                                                <br>Deepak Mishra
+                                                <br>403, 4th Floor, SAKET CALLIPOLIS
+                                                <br>Rainbow Drive, Doddakannelli
+                                                <br>Germany
+                                                <br>Bengaluru, Karnataka 560035
+                                                <br>
+                                                <b>India : Bangalore, Hyderabad, Mumbai, Delhi</b></br>
+                                                <b>Overseas : Singapore, UAE, Canada.</b>
+                                                <br>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div>
+                                    </div>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <img style="display:block; margin:20px; "
+                 src="https://ci6.googleusercontent.com/proxy/nPdcPHHsYEEkL96MpTsv_GoohJssAltyIHhxBgOUd373BtNEdAVNbKTVwO4dWFltc9ziefuGLBvEkEcfgVxnB-Aif5T1jaK7hw=s0-d-e1-ft#https://www.boschmediaservice.hu/en/download-photo/374"
+                 width="95%" height="8" class="CToWUd" data-bit="iit" text-align="center">
+        </td>
+        </tbody>
+    </table>
+</div>
+</body>
+
+</html>
