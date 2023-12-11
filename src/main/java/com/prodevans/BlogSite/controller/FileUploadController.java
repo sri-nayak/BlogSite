@@ -13,6 +13,8 @@ import java.io.IOException;
 
 @RestController
 @RequestMapping("/api/files")
+@CrossOrigin("*")
+
 public class FileUploadController {
     private FileUploadService fileUploadService;
     @Autowired

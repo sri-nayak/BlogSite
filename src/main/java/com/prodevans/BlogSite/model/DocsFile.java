@@ -3,7 +3,7 @@ package com.prodevans.BlogSite.model;
 
 import lombok.*;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 
 @Entity
 @Getter

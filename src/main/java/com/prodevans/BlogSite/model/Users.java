@@ -2,11 +2,12 @@ package com.prodevans.BlogSite.model;
 
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.sun.istack.NotNull;
+//import com.sun.istack.NotNull;
+import jakarta.validation.constraints.NotNull;
 import lombok.*;
 
-import javax.annotation.security.DenyAll;
-import javax.persistence.*;
+import jakarta.annotation.security.DenyAll;
+import jakarta.persistence.*;
 import java.util.List;
 
 @Getter

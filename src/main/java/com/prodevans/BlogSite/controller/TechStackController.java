@@ -12,6 +12,8 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/tools")
+@CrossOrigin("*")
+
 public class TechStackController {
     private TechStackService techStackService;
     @Autowired

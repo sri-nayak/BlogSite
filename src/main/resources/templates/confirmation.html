@@ -48,14 +48,12 @@
                         <p>I hope this email finds you all in good health and
                           high spirits. We are thrilled to extend an
                           invitation to you for our upcoming event, Weekly
-                          Demo. This event promises to be a .<br></p>
-                        <h2>How to Register:</h2>
-                        <ul>
-                          <li>Visit our event registration page<a
-                                  th:href="@{link}">Here</a></li>
-                          <li>Fill out the registration form with your details
-                          </li>
-                          <li>Confirm your attendance</li>
+                          Demo. Thank u for participating in this event<br></p>
+
+                        <ul th:each="">
+                          <li th:text="${date}"></li>
+                          <li th:text="${day}"></li>
+                          <li th:text="${Time}"></li>
                         </ul>
                       </div>
                       <!-- <div align="center" style="line-height:2em">

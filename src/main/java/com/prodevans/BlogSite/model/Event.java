@@ -3,7 +3,7 @@ package com.prodevans.BlogSite.model;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.*;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 import java.sql.Date;
 import java.util.List;
 import java.util.Set;

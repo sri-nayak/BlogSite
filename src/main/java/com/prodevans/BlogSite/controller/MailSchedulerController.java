@@ -44,7 +44,11 @@ public class MailSchedulerController {
         context.setVariable("message","This is the test mail template which is to be invoked and send");
         appMailSender.sendToListOfUser("gopalkrushna647@gmail.com",context,null,"email");
     }
+    public void sendCnfrmBooking(){
+
+    }
 //    @Scheduled(fixedRate = 20000)
+//    @Scheduled(cron = "*")
     public  void sendMailToAdmin() {
         Context context=new Context();
         context.setVariable("name","Dear Team");

@@ -2,11 +2,12 @@ package com.prodevans.BlogSite.Repository;
 
 
 import com.prodevans.BlogSite.model.Event;
+import jakarta.transaction.Transactional;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
-import javax.transaction.Transactional;
+//import javax.transaction.Transactional;
 import java.sql.Date;
 import java.util.List;
 import java.util.Optional;
